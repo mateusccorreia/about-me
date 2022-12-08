@@ -126,8 +126,40 @@
         
         <!-- The footer section -->
         <footer>
-            <div></div>
-        </footer>
-        
+            <form accept="" method="post">
+                <br/>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome_usuario">
+                </p>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="use um gmail" id="email" name="email_usuario">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="date" id="password" name="senha_usuario">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="file" id="password" name="senha_usuario">
+                </div>
+
+                <p>
+                    <fieldset>
+                        <legend>Genero</legend>
+                        <div>
+                            <label for="feminino">Feminino</label>
+                            <input type="radio" id="feminino" name="genero">
+                        </div>
+                        <div>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" id="masculino" name="genero">
+                        </div>
+                    </fieldset>
+                </p>
+                <button>Submit</button>
+            </form>
+        </footer>        
     </body>
 </html>
