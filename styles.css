@@ -1,11 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+* {
+    font-family: 'Roboto Mono', monospace;;
+}
 
 a {
-    text-decoration: none;
-    color: black;
+    target: blank;
 }
 
 .logo h2 {
@@ -41,4 +39,29 @@ section {
 
 h3 {
     padding-top: 2rem;
+}
+
+.team p {
+    margin: 0.5rem;
+}
+
+.hard-skills {
+    display: block;
+}
+
+.soft-skills {
+    display: block;
+}
+
+.team-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer > p {
+    padding: 1.5rem;
+    background: #3c40c6;
+    text-align: center;
+    color: #fff
 }
